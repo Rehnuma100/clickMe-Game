@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(137, 168, 196);
+}
+#panel{
+    overflow: hidden;
+    height: 86.5%;
+    width: 87%;
+    background-color: rgb(241, 235, 223);
+    border-radius: 12.5px;
+}
+#nav{
+    padding: 0px 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(40, 68, 92);
+}
+.Score-box{
+    color: aliceblue;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.num{
+    color: rgb(40, 68, 92);
+    font-weight: 545;
+    padding: 5px 20px;
+    background-color: aliceblue;
+    border-radius: 7px;
+}
+#btm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 17px;
+    padding: 20px;
+    width: 100%;
+    height: 583px;
+}
+
+.bubble{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(40, 68, 92);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 500;
+    margin: 2px;
+}
+
+
